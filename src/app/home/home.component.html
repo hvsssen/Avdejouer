@@ -1,0 +1,30 @@
+<div class="container">
+    <app-site-header></app-site-header>
+  
+    <div class="content flex-container">
+      <app-left-menu></app-left-menu>
+      
+      <div class="main-content">
+        <figure>
+          <img src="assets/Images/cakes.jpg" width="600" alt="La vitrine de notre boutique" />
+          <figcaption>Vitrine de la boutique Cake's shop</figcaption>
+        </figure>
+        <button (click)="save()" type="button">J'aime</button>
+    <span id="favorite"></span>
+  
+        <!-- Main text content -->
+        <main id="main">
+          <h1 style="font-size:35px;color:#a593c2">Bienvenue à notre boutique !</h1>
+          <h2>Notre histoire</h2>
+          <p style="text-align: center;">
+            Pendant de nombreuses années, Cake Shop a préparé les gâteaux les plus délicieux chez eux en Tunisie. En 2013, nous avons ouvert notre première boutique dans une petite rue charmante au cœur de Tunis. Les gens du monde entier sont tombés amoureux de nos moelleux gâteaux, nos cheesecakes divins et nos tartes aux pommes épicées... La boutique a rapidement connu un grand succès. En 2015, pas moins de 100 gâteaux étaient vendus chaque jour, et Cake Shop a déménagé dans un espace plus grand pour répondre à la demande croissante. Suite à de nombreuses demandes, il est devenu évident que la prochaine étape était de permettre à chacun de commander nos gâteaux depuis chez eux, et ce, de n'importe où dans le monde. Vous découvrez maintenant le résultat de ce projet : notre propre boutique en ligne, vous permettant de commander les délicieux gâteaux de Cake Shop à tout moment !
+          </p>
+          <hr>
+          <app-promotions></app-promotions>
+        </main>
+      </div>
+    </div>
+  
+    <app-footer></app-footer>
+  </div>
+  

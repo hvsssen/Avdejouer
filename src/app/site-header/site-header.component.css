@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding: 0 8px 5px 8px;
+    border-bottom: 2px solid #818285;
+    background-color: #b87be3; /* Purple background */
+    list-style-type: none;
+    text-decoration: none; /* No underlining */
+    margin: 0;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    color: white; /* White text */
+}
+
+.left * {
+    margin-right: 25px;
+    color: white; /* White text */
+}
+
+.logo {
+    height: 75px;
+}
+
+.cart {
+    display: flex;
+    position: relative;
+}
+
+.cartCount {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    top: -7px;
+    right: -15px;
+    border-radius: 50%;
+    background-color: #f590c4;
+    color: white;
+    font-size: 14px;
+}
+
+.cartCount div {
+    margin: auto;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.right * {
+    margin-left: 25px;
+}
+
+.right img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.sign-out {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+}
+
+/* Moved the `float` and `block` display out of the `.container` to avoid conflict */
+.menu-item {
+    float: left;
+    display: block;
+    color: white; /* White text for menu items */
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}

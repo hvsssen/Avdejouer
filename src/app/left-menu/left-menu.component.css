@@ -1,0 +1,68 @@
+/* Global styles for links (href) */
+a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3a1f67; /* Slightly darker purple on hover */
+    text-decoration: underline; /* Underline on hover */
+  }
+  
+  /* Styling for the "J'aime" button */
+  .jaime-btn {
+    background-color: #a593c2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .jaime-btn:hover {
+    background-color: #46277b; /* Darker purple on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+  }
+  
+  /* Styling for the search bar */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid #441492;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #3f2075; /* Change border color on focus */
+    outline: none; /* Remove default focus outline */
+  }
+  
+  /* Enhancing the list of categories (side menu) */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    font-size: 18px;
+  }
+  
+  ul li a:hover {
+    color: #090909;
+    font-weight: bold; /* Make links bold on hover */
+  }
+  

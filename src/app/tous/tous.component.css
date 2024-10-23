@@ -1,0 +1,51 @@
+.container {
+    background-image: url('src/assets/images/pattern.png'); /* Ensure the correct path */
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6e4d9;
+    padding: 20px; /* Optional padding for better spacing */
+}
+
+/* Flex container for layout */
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+app-left-menu {
+    margin-right: 20px; /* Space between left menu and content */
+}
+
+/* Main content layout */
+.main-content {
+    display: flex;
+    flex-direction: column; /* Stack image/table and text vertically */
+    align-items: center; /* Center align the table and the text */
+}
+
+/* Table styling to replace the figure */
+table {
+    border-collapse: collapse;
+    width: 100%; /* Full-width table */
+    margin: 0;
+    margin-bottom: 20px; /* Space between table and the text */
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Center the main content text under the table */
+main {
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Space between the table and the text */
+}
+
+/* Optional styling for responsiveness */
+@media (max-width: 768px) {
+    .flex-container {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+}

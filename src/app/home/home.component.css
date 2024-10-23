@@ -1,0 +1,39 @@
+.container {
+    background-image: url('src/assets/images/pattern.png'); /* Ensure the correct path */
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e6e4d9;   
+    padding: 20px; /* Optional padding for better spacing */
+  }
+  
+  .flex-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  app-left-menu {
+    margin-right: 20px; /* Space between left menu and figure */
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center align both the image and the text */
+  }
+  
+  figure {
+    margin: 0;
+    margin-bottom: 20px; /* Space between the figure and the text */
+  }
+  
+  main {
+    text-align: center; /* Center align the text */
+  }
+  
+  /* Optional styling for responsiveness */
+  @media (max-width: 768px) {
+    .flex-container {
+      flex-direction: column; /* Stack elements vertically on smaller screens */
+    }
+  }
+  
